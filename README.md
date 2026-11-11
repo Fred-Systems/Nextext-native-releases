@@ -10,10 +10,10 @@ interoperable with it. It is a **separate app** from NexText.Lite
 
 ## Download
 
-Latest release: **[NexText-v1.1.0.apk](https://github.com/Fred-Systems/Nextext-native-releases/releases/latest)**
+Latest release: **[NexText-v1.2.0.apk](https://github.com/Fred-Systems/Nextext-native-releases/releases/latest)**
 
 1. On your Android phone, open the link above.
-2. Download `NexText-v1.1.0.apk`.
+2. Download `NexText-v1.2.0.apk`.
 3. Tap it and allow "install unknown apps" if asked.
 4. Open NexText and sign in with your regular NexText account.
 
@@ -53,6 +53,13 @@ automatically; you always confirm the install.
 
 ## Releases
 
+- **v1.2.0** — Agora calling (shared worker token server + ICE/TURN from the
+  same globalSettings, automatic WebRTC fallback), keep-alive service so
+  nextext calls ring with the app closed, pause/eye toggle/download on the
+  status viewer, frozen-video fix, Jewish Status as "The Hock" podcast +
+  "Updates" creator rings, AI config caching + model fallback chains,
+  disguise setup flows and full launcher-icon set, updater with separate
+  install/download paths, 1.2.0 (3).
 - **v1.1.0** — Status studio (full editors, stickers, voiceover, downloads),
   Jewish podcast player with date picking, AI voice fixes (persona voices,
   generating states, STT, provider failover, AI podcasts), cross-app call fixes
