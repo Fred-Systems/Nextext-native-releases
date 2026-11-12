@@ -10,10 +10,10 @@ interoperable with it. It is a **separate app** from NexText.Lite
 
 ## Download
 
-Latest release: **[NexText-v1.2.0.apk](https://github.com/Fred-Systems/Nextext-native-releases/releases/latest)**
+Latest release: **[NexText-v1.2.1.apk](https://github.com/Fred-Systems/Nextext-native-releases/releases/latest)**
 
 1. On your Android phone, open the link above.
-2. Download `NexText-v1.2.0.apk`.
+2. Download `NexText-v1.2.1.apk`.
 3. Tap it and allow "install unknown apps" if asked.
 4. Open NexText and sign in with your regular NexText account.
 
@@ -53,6 +53,12 @@ automatically; you always confirm the install.
 
 ## Releases
 
+- **v1.2.1** — Calls that reach you: Answer/Decline actions on call banners,
+  auto-answer when you tap Answer, keep-alive service (calls ring even with
+  the app closed). AI now works even when shared-store quota hiccups (local
+  optimistic rendering + 5-minute cached config read). Videos in chats render
+  inline, Jewish Status page is fully scrollable with collapsed filters +
+  creator grid, smaller APK (~108 MB, arm64).
 - **v1.2.0** — Agora calling (shared worker token server + ICE/TURN from the
   same globalSettings, automatic WebRTC fallback), keep-alive service so
   nextext calls ring with the app closed, pause/eye toggle/download on the
